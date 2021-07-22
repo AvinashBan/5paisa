@@ -3,3 +3,4 @@ deployment:
   tasks:
        - export DEPLOYPATH=/home/myrestap/public_html/5pai/
        - /bin/cp * $DEPLOYPATH
+       - /bin/cp -r * $DEPLOYPATH 
