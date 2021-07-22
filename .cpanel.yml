@@ -1,4 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/example/public_html/
+       - export DEPLOYPATH=/home/myrestap/public_html/5pai/
+       - /bin/cp * $DEPLOYPATH
